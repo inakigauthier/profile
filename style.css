@@ -1,0 +1,122 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+body {
+    background-color: #4C3B4D; 
+  }
+
+  h1, h3 {
+    color: #58607D;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 15px;
+  }
+
+  h2 {
+    color: #387780;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+ 
+  #description{
+    font-family: "Open Sans", sans-serif;
+    color: #58607D;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    color: #58607D;
+    font-weight: bold;
+  }
+
+  i {
+    color: #58607D;
+    font-size: 40px;
+    display: inline-block;
+  }
+
+
+  .card {
+    background-color: white;
+    padding: 32px;
+    margin: 24px auto;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+    border-radius: 4px;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+
+  .btn-blue {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #4C3B4D;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .btn-blue:hover {
+    background-color: #387780;
+    
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--landscape img {
+    width: 100%;
+    height: auto;
+  }
+
+  #barca {
+    height: 100px;
+    width: 100px;
+  }
+
+  #breaking_bad {
+    height: 100px;
+    width: 150px;
+  }
+
+  #burger {
+    height: 150px;
+    width: 150px;
+  }
